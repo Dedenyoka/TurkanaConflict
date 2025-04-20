@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b1ed16a68308add7b27e558288cf27a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0b1ed16a68308add7b27e558288cf27a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b1ed16a68308add7b27e558288cf27a = L.map(
+                "map_0b1ed16a68308add7b27e558288cf27a",
+                {
+                    center: [3.5, 35.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_71c59eb7207c50e69a66e70c7c25c71f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_71c59eb7207c50e69a66e70c7c25c71f.addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var marker_c9456f0ff37e29ad9fb31291f014fec4 = L.marker(
+                [1.7390336915886242, 36.77300838714832],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_f3269679245491d33498cece73b7b1bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d1cc5b15173d43c0e503b52d16baa4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb57218e2b9ce8b19cc0543b49dd185d = $(`<div id="html_eb57218e2b9ce8b19cc0543b49dd185d" style="width: 100.0%; height: 100.0%;">     Location: Baragoi<br>     Date: 2025-03-11<br>     Event: Cattle Raid<br>     Casualties: 6 killed, 8 injured, 700 livestock stolen     </div>`)[0];
+                popup_9d1cc5b15173d43c0e503b52d16baa4c.setContent(html_eb57218e2b9ce8b19cc0543b49dd185d);
+            
+        
+
+        marker_c9456f0ff37e29ad9fb31291f014fec4.bindPopup(popup_9d1cc5b15173d43c0e503b52d16baa4c)
+        ;
+
+        
+    
+    
+                marker_c9456f0ff37e29ad9fb31291f014fec4.setIcon(icon_f3269679245491d33498cece73b7b1bd);
+            
+    
+            var marker_1f6a1185ae0123723cd7c237ba91771e = L.marker(
+                [4.608092394764656, 35.93923905474625],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_61bfa8a3cd42ea65a047d8a35c5e07bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_467b03a67108f45153680640c2b06a5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0f7df223a11198097630ec5ef0b3ed9 = $(`<div id="html_d0f7df223a11198097630ec5ef0b3ed9" style="width: 100.0%; height: 100.0%;">     Location: Todonyang<br>     Date: 2025-02-22<br>     Event: Cross-border attack<br>     Casualties: 53 killed, 22 missing     </div>`)[0];
+                popup_467b03a67108f45153680640c2b06a5e.setContent(html_d0f7df223a11198097630ec5ef0b3ed9);
+            
+        
+
+        marker_1f6a1185ae0123723cd7c237ba91771e.bindPopup(popup_467b03a67108f45153680640c2b06a5e)
+        ;
+
+        
+    
+    
+                marker_1f6a1185ae0123723cd7c237ba91771e.setIcon(icon_61bfa8a3cd42ea65a047d8a35c5e07bb);
+            
+    
+            var marker_70f2f2ffe05cb65b57eb53e69742a9dd = L.marker(
+                [1.0865317500599523, 37.000026607765044],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_f2cf62a54aa05cd6725baa66786da358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fafa2c540f895547003d59465aabdb8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41fcd35e48af06de5cdf6e8b99d20eb3 = $(`<div id="html_41fcd35e48af06de5cdf6e8b99d20eb3" style="width: 100.0%; height: 100.0%;">     Location: Samburu<br>     Date: 2022-09-26<br>     Event: Cattle Raid / Attack on Police<br>     Casualties: 1 bandit killed, 1 bandit injured, 8 police officers killed, 1 peace crusader killed, 1 administrator killed     </div>`)[0];
+                popup_fafa2c540f895547003d59465aabdb8a.setContent(html_41fcd35e48af06de5cdf6e8b99d20eb3);
+            
+        
+
+        marker_70f2f2ffe05cb65b57eb53e69742a9dd.bindPopup(popup_fafa2c540f895547003d59465aabdb8a)
+        ;
+
+        
+    
+    
+                marker_70f2f2ffe05cb65b57eb53e69742a9dd.setIcon(icon_f2cf62a54aa05cd6725baa66786da358);
+            
+    
+            var marker_8a132aaafac990865f1acc116c51197a = L.marker(
+                [4.378623371188084, 35.73765465806399],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_a94f71301fb5e96884baa73e66c85c38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7aab6c43712786c74af965b0684713f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc30bd5f8d7aaf23ead2368e119339af = $(`<div id="html_fc30bd5f8d7aaf23ead2368e119339af" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2024-05-06<br>     Event: Cattle Raid<br>     Casualties: Livestock stolen; four cows recovered; no fatalities reported.     </div>`)[0];
+                popup_7aab6c43712786c74af965b0684713f3.setContent(html_fc30bd5f8d7aaf23ead2368e119339af);
+            
+        
+
+        marker_8a132aaafac990865f1acc116c51197a.bindPopup(popup_7aab6c43712786c74af965b0684713f3)
+        ;
+
+        
+    
+    
+                marker_8a132aaafac990865f1acc116c51197a.setIcon(icon_a94f71301fb5e96884baa73e66c85c38);
+            
+    
+            var marker_518c4851c75643311b848ee10c6e1743 = L.marker(
+                [2.188387070276537, 35.756183615059804],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_82c670ed037757b26182f3c839afb1e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38ea7eb64e0ffb130f5da096896379d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a90d69b82856762e4bd4a470d4b5c5 = $(`<div id="html_53a90d69b82856762e4bd4a470d4b5c5" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2024-02-05<br>     Event: Cattle Raid<br>     Casualties: 2 gunmen killed, no livestock stolen, 1 civilian injured.     </div>`)[0];
+                popup_38ea7eb64e0ffb130f5da096896379d7.setContent(html_53a90d69b82856762e4bd4a470d4b5c5);
+            
+        
+
+        marker_518c4851c75643311b848ee10c6e1743.bindPopup(popup_38ea7eb64e0ffb130f5da096896379d7)
+        ;
+
+        
+    
+    
+                marker_518c4851c75643311b848ee10c6e1743.setIcon(icon_82c670ed037757b26182f3c839afb1e8);
+            
+    
+            var marker_b18c6e0dec3867862ab27acd52ba6954 = L.marker(
+                [3.254271628688391, 35.51407151506548],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_8279e0999fc3ddb971c978c6443fe463 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c32419f34f43cca8fc4fb6c82268a6c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c78d7f93d9ef6b51168b24065abf076c = $(`<div id="html_c78d7f93d9ef6b51168b24065abf076c" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2023-12-01<br>     Event: Cattle Raid<br>     Casualties: 8 killed, 5 injured, dozens displaced.     </div>`)[0];
+                popup_c32419f34f43cca8fc4fb6c82268a6c0.setContent(html_c78d7f93d9ef6b51168b24065abf076c);
+            
+        
+
+        marker_b18c6e0dec3867862ab27acd52ba6954.bindPopup(popup_c32419f34f43cca8fc4fb6c82268a6c0)
+        ;
+
+        
+    
+    
+                marker_b18c6e0dec3867862ab27acd52ba6954.setIcon(icon_8279e0999fc3ddb971c978c6443fe463);
+            
+    
+            var marker_12b046c8c05cf1e37b89035be56fc644 = L.marker(
+                [4.377796144065634, 35.73304410430671],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_bca63b692137c6328aa06cb589fd47cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e44d337e9855cf42606e536368c5c0e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6b2b3d22ca726dfcdf2ac09136f6ad9 = $(`<div id="html_b6b2b3d22ca726dfcdf2ac09136f6ad9" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2024-08-30<br>     Event: Cattle Raid<br>     Casualties: 1 killed, livestock stolen; police mobilized to pursue the raiders.     </div>`)[0];
+                popup_e44d337e9855cf42606e536368c5c0e4.setContent(html_b6b2b3d22ca726dfcdf2ac09136f6ad9);
+            
+        
+
+        marker_12b046c8c05cf1e37b89035be56fc644.bindPopup(popup_e44d337e9855cf42606e536368c5c0e4)
+        ;
+
+        
+    
+    
+                marker_12b046c8c05cf1e37b89035be56fc644.setIcon(icon_bca63b692137c6328aa06cb589fd47cd);
+            
+    
+            var marker_7919fe09c19a2f3fe7e06910bebd9a52 = L.marker(
+                [1.4008466821078491, 35.23316995408122],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_ccff3e83b1d4610e2f9997af51cda7b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_135feadf8aa07b4c5f677018fb601e11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f48aaf6b86cfabda8163f29f44999c = $(`<div id="html_69f48aaf6b86cfabda8163f29f44999c" style="width: 100.0%; height: 100.0%;">     Location: Songok<br>     Date: 2024-05-03<br>     Event: Cattle Raid<br>     Casualties: 1 child kidnapped, livestock stolen; local chief expressed shock and urged law enforcement to take swift action.     </div>`)[0];
+                popup_135feadf8aa07b4c5f677018fb601e11.setContent(html_69f48aaf6b86cfabda8163f29f44999c);
+            
+        
+
+        marker_7919fe09c19a2f3fe7e06910bebd9a52.bindPopup(popup_135feadf8aa07b4c5f677018fb601e11)
+        ;
+
+        
+    
+    
+                marker_7919fe09c19a2f3fe7e06910bebd9a52.setIcon(icon_ccff3e83b1d4610e2f9997af51cda7b2);
+            
+    
+            var marker_236735bde13d8a95edecc6c9297f7975 = L.marker(
+                [2.186668942474346, 35.75643298320778],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_f3a403943dcabece3e71e5884581309e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a460acb3f5b90cadbb97685d6bb8146f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f0e33c1fc2a6249f87f6926889445e = $(`<div id="html_16f0e33c1fc2a6249f87f6926889445e" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2024-05-04<br>     Event: Cattle Raid<br>     Casualties: 2 gunmen killed, no livestock stolen, 1 civilian injured; police launched a manhunt for the perpetrators.     </div>`)[0];
+                popup_a460acb3f5b90cadbb97685d6bb8146f.setContent(html_16f0e33c1fc2a6249f87f6926889445e);
+            
+        
+
+        marker_236735bde13d8a95edecc6c9297f7975.bindPopup(popup_a460acb3f5b90cadbb97685d6bb8146f)
+        ;
+
+        
+    
+    
+                marker_236735bde13d8a95edecc6c9297f7975.setIcon(icon_f3a403943dcabece3e71e5884581309e);
+            
+    
+            var marker_79ac6f071522091de64a235ba86776f4 = L.marker(
+                [4.230246973932533, 33.73551960188436],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_23ff415b7fdc3c5a0ad55a484977c887 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bc5804dd46d5c5f180a4fb292b12df6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce129a68446cd4d00782c742172dc8b9 = $(`<div id="html_ce129a68446cd4d00782c742172dc8b9" style="width: 100.0%; height: 100.0%;">     Location: Nadapal<br>     Date: 2025-04-02<br>     Event: Cattle Raid<br>     Casualties: Cattle stolen; no casualties reported.     </div>`)[0];
+                popup_5bc5804dd46d5c5f180a4fb292b12df6.setContent(html_ce129a68446cd4d00782c742172dc8b9);
+            
+        
+
+        marker_79ac6f071522091de64a235ba86776f4.bindPopup(popup_5bc5804dd46d5c5f180a4fb292b12df6)
+        ;
+
+        
+    
+    
+                marker_79ac6f071522091de64a235ba86776f4.setIcon(icon_23ff415b7fdc3c5a0ad55a484977c887);
+            
+    
+            var marker_73c93e3c61f5e907a348066e01362594 = L.marker(
+                [4.755717193642151, 33.58933415569215],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_4068f4e92d28c845e1652a7120e695ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36b567c35741bdbc3b760d6fcadab8c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_090e0858619e29eae8e81ada6ef35d8b = $(`<div id="html_090e0858619e29eae8e81ada6ef35d8b" style="width: 100.0%; height: 100.0%;">     Location: Kapoeta East<br>     Date: 2025-03-28<br>     Event: Cattle Raid<br>     Casualties: 20 cattle stolen; no casualties reported.     </div>`)[0];
+                popup_36b567c35741bdbc3b760d6fcadab8c1.setContent(html_090e0858619e29eae8e81ada6ef35d8b);
+            
+        
+
+        marker_73c93e3c61f5e907a348066e01362594.bindPopup(popup_36b567c35741bdbc3b760d6fcadab8c1)
+        ;
+
+        
+    
+    
+                marker_73c93e3c61f5e907a348066e01362594.setIcon(icon_4068f4e92d28c845e1652a7120e695ba);
+            
+    
+            var marker_4816eb660c89fa24b8cb601ae6c9a19a = L.marker(
+                [4.372175939895373, 35.73578941978039],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_0487759c34cd6fde656595b4ff3cf8ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c8254ce8045d30db6caf2a155dd5c53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bc6523ad590c9b1f25339c23383db00 = $(`<div id="html_0bc6523ad590c9b1f25339c23383db00" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2025-03-15<br>     Event: Cattle Raid<br>     Casualties: Cattle stolen; no casualties reported.     </div>`)[0];
+                popup_8c8254ce8045d30db6caf2a155dd5c53.setContent(html_0bc6523ad590c9b1f25339c23383db00);
+            
+        
+
+        marker_4816eb660c89fa24b8cb601ae6c9a19a.bindPopup(popup_8c8254ce8045d30db6caf2a155dd5c53)
+        ;
+
+        
+    
+    
+                marker_4816eb660c89fa24b8cb601ae6c9a19a.setIcon(icon_0487759c34cd6fde656595b4ff3cf8ae);
+            
+    
+            var marker_bc6cb0895c05a499e9958e820e536ab0 = L.marker(
+                [3.634628594201587, 35.85668243840352],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_214a43e6945a7a27427c45408922a632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_665413f55c36c3d0683b1617ba0e2cb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e82450ed679ebeb67a6274fbb6dd4d39 = $(`<div id="html_e82450ed679ebeb67a6274fbb6dd4d39" style="width: 100.0%; height: 100.0%;">     Location: Turkana North<br>     Date: 2025-03-10<br>     Event: Cattle Raid<br>     Casualties: Livestock stolen; no casualties reported.     </div>`)[0];
+                popup_665413f55c36c3d0683b1617ba0e2cb5.setContent(html_e82450ed679ebeb67a6274fbb6dd4d39);
+            
+        
+
+        marker_bc6cb0895c05a499e9958e820e536ab0.bindPopup(popup_665413f55c36c3d0683b1617ba0e2cb5)
+        ;
+
+        
+    
+    
+                marker_bc6cb0895c05a499e9958e820e536ab0.setIcon(icon_214a43e6945a7a27427c45408922a632);
+            
+    
+            var marker_9c6aa5741630197a3214111bcac70bf9 = L.marker(
+                [3.2508010959920273, 35.514213966340755],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_26c4d2b0b88e13cc19f741620b73ac53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11db02211826bbf755fc6e80701a36b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5e05c8dc63d889dc240a3c7dcf7dfcf = $(`<div id="html_a5e05c8dc63d889dc240a3c7dcf7dfcf" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2025-02-25<br>     Event: Cattle Raid<br>     Casualties: 8 killed, 5 injured, dozens displaced.     </div>`)[0];
+                popup_11db02211826bbf755fc6e80701a36b7.setContent(html_a5e05c8dc63d889dc240a3c7dcf7dfcf);
+            
+        
+
+        marker_9c6aa5741630197a3214111bcac70bf9.bindPopup(popup_11db02211826bbf755fc6e80701a36b7)
+        ;
+
+        
+    
+    
+                marker_9c6aa5741630197a3214111bcac70bf9.setIcon(icon_26c4d2b0b88e13cc19f741620b73ac53);
+            
+    
+            var marker_64974774fe5fc809bcab92b62692c4af = L.marker(
+                [2.1890757831008893, 35.75588583513113],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_127fd1dcd222e4331bce1aacba338409 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9d06d4f58fac433d11c5b26b74cd87b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_041e42d830ea8a78b73f74bee88ff027 = $(`<div id="html_041e42d830ea8a78b73f74bee88ff027" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2025-02-10<br>     Event: Cattle Raid<br>     Casualties: 2 gunmen killed, no livestock stolen, 1 civilian injured.     </div>`)[0];
+                popup_d9d06d4f58fac433d11c5b26b74cd87b.setContent(html_041e42d830ea8a78b73f74bee88ff027);
+            
+        
+
+        marker_64974774fe5fc809bcab92b62692c4af.bindPopup(popup_d9d06d4f58fac433d11c5b26b74cd87b)
+        ;
+
+        
+    
+    
+                marker_64974774fe5fc809bcab92b62692c4af.setIcon(icon_127fd1dcd222e4331bce1aacba338409);
+            
+    
+            var marker_9878d0462e6b36da084882b57ed47c73 = L.marker(
+                [4.378308848078268, 35.73858355445501],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_c478f737c4e6d2ec211af4bd42ea3fa8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aabc874a89ff283ccdd2a149a61fdcc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f0fcaf8737125ac64df5c529e5df642 = $(`<div id="html_3f0fcaf8737125ac64df5c529e5df642" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2025-01-25<br>     Event: Cattle Raid<br>     Casualties: 1 killed, livestock stolen; police mobilized to pursue the raiders.     </div>`)[0];
+                popup_aabc874a89ff283ccdd2a149a61fdcc4.setContent(html_3f0fcaf8737125ac64df5c529e5df642);
+            
+        
+
+        marker_9878d0462e6b36da084882b57ed47c73.bindPopup(popup_aabc874a89ff283ccdd2a149a61fdcc4)
+        ;
+
+        
+    
+    
+                marker_9878d0462e6b36da084882b57ed47c73.setIcon(icon_c478f737c4e6d2ec211af4bd42ea3fa8);
+            
+    
+            var marker_22737a75e17603fed2d4562cf2632cd2 = L.marker(
+                [1.3988692342333324, 35.233508949446055],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_30c783a75d692d8fde7cacbbd3c1fb60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8842457453bcbdbe2562c80adac5457d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31f5afb65fc8541e15f7836a845c7230 = $(`<div id="html_31f5afb65fc8541e15f7836a845c7230" style="width: 100.0%; height: 100.0%;">     Location: Songok<br>     Date: 2025-01-15<br>     Event: Cattle Raid<br>     Casualties: 1 child kidnapped, livestock stolen; local chief expressed shock and urged law enforcement to take swift action.     </div>`)[0];
+                popup_8842457453bcbdbe2562c80adac5457d.setContent(html_31f5afb65fc8541e15f7836a845c7230);
+            
+        
+
+        marker_22737a75e17603fed2d4562cf2632cd2.bindPopup(popup_8842457453bcbdbe2562c80adac5457d)
+        ;
+
+        
+    
+    
+                marker_22737a75e17603fed2d4562cf2632cd2.setIcon(icon_30c783a75d692d8fde7cacbbd3c1fb60);
+            
+    
+            var marker_bbca5fc0f30176e68903de1a73f426ff = L.marker(
+                [2.1908394594886893, 35.75629815009619],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_b01033d15b60d986502d95fa43923543 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dea955451e148e727ed15c57c1e3a6d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdf2be77cd0880d4caff7a27fb19deef = $(`<div id="html_fdf2be77cd0880d4caff7a27fb19deef" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2025-01-10<br>     Event: Cattle Raid<br>     Casualties: 2 gunmen killed, no livestock stolen, 1 civilian injured; police launched a manhunt for the perpetrators.     </div>`)[0];
+                popup_dea955451e148e727ed15c57c1e3a6d0.setContent(html_fdf2be77cd0880d4caff7a27fb19deef);
+            
+        
+
+        marker_bbca5fc0f30176e68903de1a73f426ff.bindPopup(popup_dea955451e148e727ed15c57c1e3a6d0)
+        ;
+
+        
+    
+    
+                marker_bbca5fc0f30176e68903de1a73f426ff.setIcon(icon_b01033d15b60d986502d95fa43923543);
+            
+    
+            var marker_1239f9c29ca2bab26fdc1eada53f1a41 = L.marker(
+                [3.2527904977925393, 35.51942991703181],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_529bdd8d939dd46f9edd09dd6e6c33b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e562035ca44f5c007a5f4cb07c7431a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b05e92d6fe35483d928b01113fcec80 = $(`<div id="html_8b05e92d6fe35483d928b01113fcec80" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2024-12-20<br>     Event: Cattle Raid<br>     Casualties: 8 killed, 5 injured, dozens displaced.     </div>`)[0];
+                popup_e562035ca44f5c007a5f4cb07c7431a4.setContent(html_8b05e92d6fe35483d928b01113fcec80);
+            
+        
+
+        marker_1239f9c29ca2bab26fdc1eada53f1a41.bindPopup(popup_e562035ca44f5c007a5f4cb07c7431a4)
+        ;
+
+        
+    
+    
+                marker_1239f9c29ca2bab26fdc1eada53f1a41.setIcon(icon_529bdd8d939dd46f9edd09dd6e6c33b8);
+            
+    
+            var marker_6b97e3d016d9f5dba29f1c4b2c2f17e9 = L.marker(
+                [2.1925061334828975, 35.74999871253312],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_6a2ede340a836f7568def42557dcc935 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_211a1f8295ccdb169d4cf2bd0601003d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1506ab035313c199b0a7b5df91d1bb74 = $(`<div id="html_1506ab035313c199b0a7b5df91d1bb74" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2024-12-15<br>     Event: Cattle Raid<br>     Casualties: 2 gunmen killed, no livestock stolen, 1 civilian injured; police launched a manhunt for the perpetrators.     </div>`)[0];
+                popup_211a1f8295ccdb169d4cf2bd0601003d.setContent(html_1506ab035313c199b0a7b5df91d1bb74);
+            
+        
+
+        marker_6b97e3d016d9f5dba29f1c4b2c2f17e9.bindPopup(popup_211a1f8295ccdb169d4cf2bd0601003d)
+        ;
+
+        
+    
+    
+                marker_6b97e3d016d9f5dba29f1c4b2c2f17e9.setIcon(icon_6a2ede340a836f7568def42557dcc935);
+            
+    
+            var marker_6bc49c67f7b6d9da5e1a41afb688a659 = L.marker(
+                [4.377600547989778, 35.72945556578975],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_f21f7784e5ee27f96cc5182e2b864c1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb8ad5a1ecff94f17a6671aabf3e1b4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5f5d633c6daf9a0f49a5520d9843b3b = $(`<div id="html_a5f5d633c6daf9a0f49a5520d9843b3b" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2024-12-05<br>     Event: Cattle Raid<br>     Casualties: 1 killed, livestock stolen; police mobilized to pursue the raiders.     </div>`)[0];
+                popup_bb8ad5a1ecff94f17a6671aabf3e1b4d.setContent(html_a5f5d633c6daf9a0f49a5520d9843b3b);
+            
+        
+
+        marker_6bc49c67f7b6d9da5e1a41afb688a659.bindPopup(popup_bb8ad5a1ecff94f17a6671aabf3e1b4d)
+        ;
+
+        
+    
+    
+                marker_6bc49c67f7b6d9da5e1a41afb688a659.setIcon(icon_f21f7784e5ee27f96cc5182e2b864c1b);
+            
+    
+            var marker_6b490191ecf3e2d67b8e8e84f086bb2b = L.marker(
+                [1.3970375518352078, 35.23258053581132],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_e415b7d7bb38315189c37615549ebfc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b73bad328466ee49196b0625152d5316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac602616d6d6e64aa9d32597e3c17843 = $(`<div id="html_ac602616d6d6e64aa9d32597e3c17843" style="width: 100.0%; height: 100.0%;">     Location: Songok<br>     Date: 2024-11-25<br>     Event: Cattle Raid<br>     Casualties: 1 child kidnapped, livestock stolen; local chief expressed shock and urged law enforcement to take swift action.     </div>`)[0];
+                popup_b73bad328466ee49196b0625152d5316.setContent(html_ac602616d6d6e64aa9d32597e3c17843);
+            
+        
+
+        marker_6b490191ecf3e2d67b8e8e84f086bb2b.bindPopup(popup_b73bad328466ee49196b0625152d5316)
+        ;
+
+        
+    
+    
+                marker_6b490191ecf3e2d67b8e8e84f086bb2b.setIcon(icon_e415b7d7bb38315189c37615549ebfc6);
+            
+    
+            var marker_dfefd2c96aa7e6b85cf71581122762de = L.marker(
+                [4.375811361340414, 35.73048109623558],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_ae0471b6297c19372a3d9a82eba81787 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffc8e01ab07d395c0b448d326208c9d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d34067caf66db51fdb47f4a865f73af = $(`<div id="html_4d34067caf66db51fdb47f4a865f73af" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2024-05-09<br>     Event: Cattle Raid<br>     Casualties: Livestock stolen; four cows recovered; no fatalities reported.     </div>`)[0];
+                popup_ffc8e01ab07d395c0b448d326208c9d6.setContent(html_4d34067caf66db51fdb47f4a865f73af);
+            
+        
+
+        marker_dfefd2c96aa7e6b85cf71581122762de.bindPopup(popup_ffc8e01ab07d395c0b448d326208c9d6)
+        ;
+
+        
+    
+    
+                marker_dfefd2c96aa7e6b85cf71581122762de.setIcon(icon_ae0471b6297c19372a3d9a82eba81787);
+            
+    
+            var marker_6c5ee1d1f015dc82068bf93a5ab74334 = L.marker(
+                [2.184416180021764, 35.7471884160979],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_6f412be9fa959404c2986c0a26f68d4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ea52feca777c7276a91a46aae3f2a8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0330a2f1867c63eb4e5b41db25487bf1 = $(`<div id="html_0330a2f1867c63eb4e5b41db25487bf1" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2019-07-15<br>     Event: Cattle Raid<br>     Casualties: 2 killed, livestock stolen, several injured.     </div>`)[0];
+                popup_9ea52feca777c7276a91a46aae3f2a8c.setContent(html_0330a2f1867c63eb4e5b41db25487bf1);
+            
+        
+
+        marker_6c5ee1d1f015dc82068bf93a5ab74334.bindPopup(popup_9ea52feca777c7276a91a46aae3f2a8c)
+        ;
+
+        
+    
+    
+                marker_6c5ee1d1f015dc82068bf93a5ab74334.setIcon(icon_6f412be9fa959404c2986c0a26f68d4f);
+            
+    
+            var marker_4a5b1707ba9feef286ee2232e74f87a8 = L.marker(
+                [3.257121329704023, 35.51850407182019],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_711e829bc289b135af40b6ccdde5d087 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cbc0015d2df25797e45c616819d5219 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_004ace56e8e7f154807bf0693a413f4b = $(`<div id="html_004ace56e8e7f154807bf0693a413f4b" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2018-03-20<br>     Event: Cattle Raid<br>     Casualties: 5 killed, several injured, livestock stolen.     </div>`)[0];
+                popup_5cbc0015d2df25797e45c616819d5219.setContent(html_004ace56e8e7f154807bf0693a413f4b);
+            
+        
+
+        marker_4a5b1707ba9feef286ee2232e74f87a8.bindPopup(popup_5cbc0015d2df25797e45c616819d5219)
+        ;
+
+        
+    
+    
+                marker_4a5b1707ba9feef286ee2232e74f87a8.setIcon(icon_711e829bc289b135af40b6ccdde5d087);
+            
+    
+            var marker_f39c7a6fca2e4e291bf98e79b47d20c3 = L.marker(
+                [1.0787521463446947, 37.002432638338924],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_1b2478e0975b46cb4cc470ef630d1fbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_117381d283251d853a806b881cdb37dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1340bb87271d56d6fdd4547c0efdd04 = $(`<div id="html_c1340bb87271d56d6fdd4547c0efdd04" style="width: 100.0%; height: 100.0%;">     Location: Samburu<br>     Date: 2017-10-11<br>     Event: Cattle Raid<br>     Casualties: Cattle stolen, 3 injured.     </div>`)[0];
+                popup_117381d283251d853a806b881cdb37dd.setContent(html_c1340bb87271d56d6fdd4547c0efdd04);
+            
+        
+
+        marker_f39c7a6fca2e4e291bf98e79b47d20c3.bindPopup(popup_117381d283251d853a806b881cdb37dd)
+        ;
+
+        
+    
+    
+                marker_f39c7a6fca2e4e291bf98e79b47d20c3.setIcon(icon_1b2478e0975b46cb4cc470ef630d1fbc);
+            
+    
+            var marker_3c10910aaee4b5002424af87bc692bc2 = L.marker(
+                [4.370622875457525, 35.733508241387284],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_f89646d741a93af94f8c583f4325bb86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a11322750834c9eb603806f2f117735f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e834a815cad8b1b5a1a594d7a16f719 = $(`<div id="html_1e834a815cad8b1b5a1a594d7a16f719" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2016-05-03<br>     Event: Cattle Raid<br>     Casualties: 3 killed, cattle stolen.     </div>`)[0];
+                popup_a11322750834c9eb603806f2f117735f.setContent(html_1e834a815cad8b1b5a1a594d7a16f719);
+            
+        
+
+        marker_3c10910aaee4b5002424af87bc692bc2.bindPopup(popup_a11322750834c9eb603806f2f117735f)
+        ;
+
+        
+    
+    
+                marker_3c10910aaee4b5002424af87bc692bc2.setIcon(icon_f89646d741a93af94f8c583f4325bb86);
+            
+    
+            var marker_ff817aada4192f28106ad6c085add9c1 = L.marker(
+                [3.428342670295203, 35.58998767432983],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_d12621d43984ef5d76a1d5a2a5f7551a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09138d892fcc84acd11e99b37a0ebfb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14589734d7a07c04c52ecdcfe1e9a855 = $(`<div id="html_14589734d7a07c04c52ecdcfe1e9a855" style="width: 100.0%; height: 100.0%;">     Location: Kaptiri<br>     Date: 2015-09-22<br>     Event: Cattle Raid<br>     Casualties: 5 killed, livestock stolen.     </div>`)[0];
+                popup_09138d892fcc84acd11e99b37a0ebfb6.setContent(html_14589734d7a07c04c52ecdcfe1e9a855);
+            
+        
+
+        marker_ff817aada4192f28106ad6c085add9c1.bindPopup(popup_09138d892fcc84acd11e99b37a0ebfb6)
+        ;
+
+        
+    
+    
+                marker_ff817aada4192f28106ad6c085add9c1.setIcon(icon_d12621d43984ef5d76a1d5a2a5f7551a);
+            
+    
+            var marker_19fe94fd6a075acb85a2a47dafe0f7cf = L.marker(
+                [4.608051854322211, 35.9443659887383],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_b2fb78d3e3db8d83e757fc2e19f73377 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22bbad3984b651b1b4bbd8820290d768 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30ad26e1d20d7e6619aa5036e4206d2f = $(`<div id="html_30ad26e1d20d7e6619aa5036e4206d2f" style="width: 100.0%; height: 100.0%;">     Location: Todonyang<br>     Date: 2015-01-14<br>     Event: Cattle Raid<br>     Casualties: 12 killed, cattle stolen.     </div>`)[0];
+                popup_22bbad3984b651b1b4bbd8820290d768.setContent(html_30ad26e1d20d7e6619aa5036e4206d2f);
+            
+        
+
+        marker_19fe94fd6a075acb85a2a47dafe0f7cf.bindPopup(popup_22bbad3984b651b1b4bbd8820290d768)
+        ;
+
+        
+    
+    
+                marker_19fe94fd6a075acb85a2a47dafe0f7cf.setIcon(icon_b2fb78d3e3db8d83e757fc2e19f73377);
+            
+    
+            var marker_a1510711e6940fa556fa47496b91fd28 = L.marker(
+                [1.340535671089414, 35.009698691466035],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_5124c1f81ecc2517d53337f71b79fa81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ce84a83017f442535b1c6f868c7add9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a94e58bfc96f4752d5d3f76f66639283 = $(`<div id="html_a94e58bfc96f4752d5d3f76f66639283" style="width: 100.0%; height: 100.0%;">     Location: Kapenguria<br>     Date: 2014-11-30<br>     Event: Cattle Raid<br>     Casualties: 7 killed, dozens wounded.     </div>`)[0];
+                popup_1ce84a83017f442535b1c6f868c7add9.setContent(html_a94e58bfc96f4752d5d3f76f66639283);
+            
+        
+
+        marker_a1510711e6940fa556fa47496b91fd28.bindPopup(popup_1ce84a83017f442535b1c6f868c7add9)
+        ;
+
+        
+    
+    
+                marker_a1510711e6940fa556fa47496b91fd28.setIcon(icon_5124c1f81ecc2517d53337f71b79fa81);
+            
+    
+            var marker_9d33d6b040b919050d65672c2ece7437 = L.marker(
+                [3.252210893176167, 35.51383148676217],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_78c822e5d6d20cbbab799f8898ced206 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e0e52013cb9e9f87457b79ed98b088e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_526b5d7af5a6a7482c2fea11c42c7e60 = $(`<div id="html_526b5d7af5a6a7482c2fea11c42c7e60" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2014-04-25<br>     Event: Cattle Raid<br>     Casualties: 6 killed, livestock stolen.     </div>`)[0];
+                popup_3e0e52013cb9e9f87457b79ed98b088e.setContent(html_526b5d7af5a6a7482c2fea11c42c7e60);
+            
+        
+
+        marker_9d33d6b040b919050d65672c2ece7437.bindPopup(popup_3e0e52013cb9e9f87457b79ed98b088e)
+        ;
+
+        
+    
+    
+                marker_9d33d6b040b919050d65672c2ece7437.setIcon(icon_78c822e5d6d20cbbab799f8898ced206);
+            
+    
+            var marker_9b37e4346976278b76fe2cb2e60fbb08 = L.marker(
+                [1.0799758443359082, 36.99888218091934],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_e0a6b2f6ea8d886a8c69a8ca67899f25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_260d5c8eea45857a11cc23a3d792c46b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51a11469c03953ba214dca8aa07d9fab = $(`<div id="html_51a11469c03953ba214dca8aa07d9fab" style="width: 100.0%; height: 100.0%;">     Location: Samburu<br>     Date: 2014-08-14<br>     Event: Clash over grazing land<br>     Casualties: 5 killed, 12 injured.     </div>`)[0];
+                popup_260d5c8eea45857a11cc23a3d792c46b.setContent(html_51a11469c03953ba214dca8aa07d9fab);
+            
+        
+
+        marker_9b37e4346976278b76fe2cb2e60fbb08.bindPopup(popup_260d5c8eea45857a11cc23a3d792c46b)
+        ;
+
+        
+    
+    
+                marker_9b37e4346976278b76fe2cb2e60fbb08.setIcon(icon_e0a6b2f6ea8d886a8c69a8ca67899f25);
+            
+    
+            var marker_a37cf8958aab1c97778c207caf851e71 = L.marker(
+                [2.1875503148597626, 35.752196398422846],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_817110efd9aad9a98022ebc40e99baca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83de7b95dab3d0de984b002987b0d5d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0aafabe7046d821e9caabb2d8e9903e0 = $(`<div id="html_0aafabe7046d821e9caabb2d8e9903e0" style="width: 100.0%; height: 100.0%;">     Location: Kainuk<br>     Date: 2023-03-22<br>     Event: Cattle Raid<br>     Casualties: 8 killed, 10 injured, livestock stolen.     </div>`)[0];
+                popup_83de7b95dab3d0de984b002987b0d5d0.setContent(html_0aafabe7046d821e9caabb2d8e9903e0);
+            
+        
+
+        marker_a37cf8958aab1c97778c207caf851e71.bindPopup(popup_83de7b95dab3d0de984b002987b0d5d0)
+        ;
+
+        
+    
+    
+                marker_a37cf8958aab1c97778c207caf851e71.setIcon(icon_817110efd9aad9a98022ebc40e99baca);
+            
+    
+            var marker_a2f6aa24384994ee4a0760883771a339 = L.marker(
+                [1.087477470424898, 37.00404825874583],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_8394c5c2bcaa55e47e8bef23d3529b24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1560fd58582e7457625c9e4d1aa1d196 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c42815cf28ddd652d3547dd80b998c00 = $(`<div id="html_c42815cf28ddd652d3547dd80b998c00" style="width: 100.0%; height: 100.0%;">     Location: Samburu<br>     Date: 2022-10-01<br>     Event: Cattle Raid<br>     Casualties: Cattle stolen, 4 injured.     </div>`)[0];
+                popup_1560fd58582e7457625c9e4d1aa1d196.setContent(html_c42815cf28ddd652d3547dd80b998c00);
+            
+        
+
+        marker_a2f6aa24384994ee4a0760883771a339.bindPopup(popup_1560fd58582e7457625c9e4d1aa1d196)
+        ;
+
+        
+    
+    
+                marker_a2f6aa24384994ee4a0760883771a339.setIcon(icon_8394c5c2bcaa55e47e8bef23d3529b24);
+            
+    
+            var marker_c29c6d42a8ed21cd04d02d008b211cb3 = L.marker(
+                [3.2551410211250102, 35.51471699491782],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_ecebabe1cf97c855590c675ea15e98cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59896dc7636404b20c83569e5bc667f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cd89fa286ea20a3748a58bdc2f4f988 = $(`<div id="html_9cd89fa286ea20a3748a58bdc2f4f988" style="width: 100.0%; height: 100.0%;">     Location: Lorengippi<br>     Date: 2021-12-16<br>     Event: Cattle Raid<br>     Casualties: 9 killed, 15 injured.     </div>`)[0];
+                popup_59896dc7636404b20c83569e5bc667f1.setContent(html_9cd89fa286ea20a3748a58bdc2f4f988);
+            
+        
+
+        marker_c29c6d42a8ed21cd04d02d008b211cb3.bindPopup(popup_59896dc7636404b20c83569e5bc667f1)
+        ;
+
+        
+    
+    
+                marker_c29c6d42a8ed21cd04d02d008b211cb3.setIcon(icon_ecebabe1cf97c855590c675ea15e98cb);
+            
+    
+            var marker_09743254359b49ba2b4828fe765f52ed = L.marker(
+                [4.3793547645762905, 35.73831322734453],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_e9ed480f0ae212cb887125e95c7719bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77bc677ceeb5c4ec6c87124ce0dae958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a367a9bfdf937e04c0e4bb3af7a5d4d9 = $(`<div id="html_a367a9bfdf937e04c0e4bb3af7a5d4d9" style="width: 100.0%; height: 100.0%;">     Location: Kibish<br>     Date: 2020-09-05<br>     Event: Cattle Raid<br>     Casualties: 7 killed, livestock stolen.     </div>`)[0];
+                popup_77bc677ceeb5c4ec6c87124ce0dae958.setContent(html_a367a9bfdf937e04c0e4bb3af7a5d4d9);
+            
+        
+
+        marker_09743254359b49ba2b4828fe765f52ed.bindPopup(popup_77bc677ceeb5c4ec6c87124ce0dae958)
+        ;
+
+        
+    
+    
+                marker_09743254359b49ba2b4828fe765f52ed.setIcon(icon_e9ed480f0ae212cb887125e95c7719bd);
+            
+    
+            var marker_cdf9e18473ed79ad07b86a15b37cd786 = L.marker(
+                [1.0837754261073138, 37.0042897795878],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_059391db2f1f46efe2633c636f40512b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef6398d2fd373d5853f37f31e5330271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06f1e66b57c4f0a8885a7c38ab43d2dd = $(`<div id="html_06f1e66b57c4f0a8885a7c38ab43d2dd" style="width: 100.0%; height: 100.0%;">     Location: Samburu<br>     Date: 2020-01-22<br>     Event: Cattle Raid<br>     Casualties: 5 killed, 12 injured.     </div>`)[0];
+                popup_ef6398d2fd373d5853f37f31e5330271.setContent(html_06f1e66b57c4f0a8885a7c38ab43d2dd);
+            
+        
+
+        marker_cdf9e18473ed79ad07b86a15b37cd786.bindPopup(popup_ef6398d2fd373d5853f37f31e5330271)
+        ;
+
+        
+    
+    
+                marker_cdf9e18473ed79ad07b86a15b37cd786.setIcon(icon_059391db2f1f46efe2633c636f40512b);
+            
+    
+            var marker_8c83a2354f8daa15743eff2878814e55 = L.marker(
+                [3.6093441417282213, 35.73482039079571],
+                {
+}
+            ).addTo(map_0b1ed16a68308add7b27e558288cf27a);
+        
+    
+            var icon_dc80f6980df9b2aac18fbf41ca6ec9f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c059338e1636e904acc9a1c95b84aa96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e160ba05fef300cf124d12e989befb6 = $(`<div id="html_6e160ba05fef300cf124d12e989befb6" style="width: 100.0%; height: 100.0%;">     Location: Turkana County<br>     Date: 2015-05-06<br>     Event: Cattle Raid<br>     Casualties: 7 killed, livestock stolen, 350 displaced.     </div>`)[0];
+                popup_c059338e1636e904acc9a1c95b84aa96.setContent(html_6e160ba05fef300cf124d12e989befb6);
+            
+        
+
+        marker_8c83a2354f8daa15743eff2878814e55.bindPopup(popup_c059338e1636e904acc9a1c95b84aa96)
+        ;
+
+        
+    
+    
+                marker_8c83a2354f8daa15743eff2878814e55.setIcon(icon_dc80f6980df9b2aac18fbf41ca6ec9f5);
+            
+</script>
+</html>
