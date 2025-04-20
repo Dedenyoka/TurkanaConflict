@@ -3,7 +3,7 @@ import pandas as pd
 import random
 
 # Load dataset
-df = pd.read_csv('conflicts.csv')
+df = pd.read_csv('"D:\Coding\Projects\TurkanaConflicts\data\conflicts.csv"')
 
 # Filter out rows with missing or invalid coordinates
 valid_data = df.dropna(subset=['Lat', 'Long'])
