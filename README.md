@@ -57,7 +57,7 @@ Two curated datasets:
 
 - Media outlets: Who reports on these events most consistently?
 
-Example Visuals:
+## Example Visuals:
 - 📈 Bar chart: Peace events per year
 - 🧭 Map : Event locations
 - 📡 Pie chart: Sources of reports (e.g., local gov’t vs national media)
