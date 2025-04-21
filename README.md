@@ -1,5 +1,8 @@
-# TurkanaConflict
+# Turkana Conflict
 This project analyzes the conflicts in the Turkana region of Kenya, including the border regions shared with Ethiopia, South Sudan, and Uganda. Currently, the code plots conflict data on a map, visualizes peace treaties and the top media outlets reporting on the conflict. Future plans include deeper analysis of the data to better understand the dynamics of these conflicts.
+
+## Data Collection
+Developed a conflict and peace monitoring dataset from scratch by curating media-reported events and cleaning messy inputs.
 
 ## Features
 - Visualize peace treaties.
