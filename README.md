@@ -15,13 +15,9 @@ This project curates, cleans, and analyzes detailed event-level data on conflict
  And the media coverage that amplifies (or omits) these narratives.
 
 ## 🛠️ Tools & Technologies
-- Python: Pandas, NumPy, Matplotlib, Seaborn
-
-- (Coming soon) Jupyter Notebooks for data exploration
+- Python: Pandas, NumPy, Matplotlib, Seaborn, Folium
 
 - Git & GitHub for version control and collaboration
-
-- (Coming soon: Streamlit or Dash for interactive dashboards)
 
 ## 📊 Data
 
