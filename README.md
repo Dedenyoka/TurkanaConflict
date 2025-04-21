@@ -41,15 +41,15 @@ Two curated datasets:
 
 - Source (news outlet or organization)
 
-#🔍 Key Insights
-## ✌️ Peace Efforts
+🔍 Key Insights
+✌️ Peace Efforts
 - Most peace agreements focus on disarmament, joint grazing, and cessation of cattle raids.
 
 - Key actors include local peace committees, community elders, and even regional militaries (e.g., UPDF).
 
 - Some events are ceremonial (e.g., symbolic burial of weapons), while others are operational (joint patrols, disarmament drives).
 
-## 📊 Visual Analysis
+ 📊 Visual Analysis
 - Peace event frequency over time
 
 - Most common event types: Peace Agreements, Disarmament Initiatives, Community Meetings
@@ -58,12 +58,12 @@ Two curated datasets:
 
 - Media outlets: Who reports on these events most consistently?
 
-##Example Visuals:
+Example Visuals:
 - 📈 Bar chart: Peace events per year
 - 🧭 Map : Event locations
 - 📡 Pie chart: Sources of reports (e.g., local gov’t vs national media)
 
-## 📰 Media Coverage Analysis
+📰 Media Coverage Analysis
 - By comparing sources across both datasets:
 
 - Some outlets (e.g., Kenya News Agency, Turkana County Government) consistently report on peacebuilding.
@@ -72,14 +72,14 @@ Two curated datasets:
 
 - This gap in coverage can influence public and policy perception.
 
-## 🚀 What's Next?
-##📊 Interactive Dashboard with filters by location, time, and event type.
+🚀 What's Next?
+📊 Interactive Dashboard with filters by location, time, and event type.
 
-## 🌐 NLP sentiment analysis on article descriptions (if full text available).
+🌐 NLP sentiment analysis on article descriptions (if full text available).
 
-## 🤝 Merge with external datasets (drought, elections, aid interventions) to understand root causes.
+🤝 Merge with external datasets (drought, elections, aid interventions) to understand root causes.
 
-#🙋 Why This Project Matters
+🙋 Why This Project Matters
 - Highlights underrepresented conflicts and peace efforts.
 
 - Encourages data-informed peacebuilding strategies.
