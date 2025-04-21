@@ -48,7 +48,7 @@ Two curated datasets:
 
 - Some events are ceremonial (e.g., symbolic burial of weapons), while others are operational (joint patrols, disarmament drives).
 
- 📊 Visual Analysis
+## 📊 Visual Analysis
 - Peace event frequency over time
 
 - Most common event types: Peace Agreements, Disarmament Initiatives, Community Meetings
@@ -62,7 +62,7 @@ Example Visuals:
 - 🧭 Map : Event locations
 - 📡 Pie chart: Sources of reports (e.g., local gov’t vs national media)
 
-📰 Media Coverage Analysis
+## 📰 Media Coverage Analysis
 - By comparing sources across both datasets:
 
 - Some outlets (e.g., Kenya News Agency, Turkana County Government) consistently report on peacebuilding.
@@ -71,14 +71,14 @@ Example Visuals:
 
 - This gap in coverage can influence public and policy perception.
 
-🚀 What's Next?
+## 🚀 What's Next?
 📊 Interactive Dashboard with filters by location, time, and event type.
 
 🌐 NLP sentiment analysis on article descriptions (if full text available).
 
 🤝 Merge with external datasets (drought, elections, aid interventions) to understand root causes.
 
-🙋 Why This Project Matters
+## 🙋 Why This Project Matters
 - Highlights underrepresented conflicts and peace efforts.
 
 - Encourages data-informed peacebuilding strategies.
