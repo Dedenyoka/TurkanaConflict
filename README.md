@@ -1,6 +1,6 @@
 # 📌 Turkana Conflict & Peace Agreements Analysis
 ## 🕊️ A data-driven exploration of conflict resolution, peacebuilding, and media coverage in the Turkana region of East Africa.
-##🌍 Project Overview
+🌍 Project Overview
 -The Turkana region — spanning borders between Kenya, Uganda, South Sudan, and Ethiopia — has long been affected by recurring conflicts over livestock, grazing land, and water. Despite this, it remains underrepresented in mainstream global datasets.
 
 -This project curates, cleans, and analyzes detailed event-level data on conflicts and peace agreements reported in the region from 2011 to 2025, offering a unique lens into:
