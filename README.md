@@ -42,6 +42,7 @@ Two curated datasets:
 - Source (news outlet or organization)
 
 🔍 Key Insights
+
 ✌️ Peace Efforts
 - Most peace agreements focus on disarmament, joint grazing, and cessation of cattle raids.
 
