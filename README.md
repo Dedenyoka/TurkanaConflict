@@ -22,8 +22,8 @@ This project curates, cleans, and analyzes detailed event-level data on conflict
 
 - (Coming soon: Streamlit or Dash for interactive dashboards)
 
-##📦 Data Sources
-##Two curated datasets:
+📦 Data Sources
+Two curated datasets:
 
 - Peace Agreements Dataset – 30+ events including peace accords, disarmament campaigns, and community dialogues.
 
