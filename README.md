@@ -51,7 +51,8 @@ A detailed log of peace efforts, disarmament campaigns, and local reconciliation
 
 - **Sample Initiatives:**  
   - Lokiriama Peace Accords  
-  - Voluntary
+  - Voluntary Disarmament
+  - Joint Peace Patrols
 
 
 ## 📊 Visual Analysis
