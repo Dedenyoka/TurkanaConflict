@@ -23,30 +23,36 @@ This project curates, cleans, and analyzes detailed event-level data on conflict
 
 - (Coming soon: Streamlit or Dash for interactive dashboards)
 
-## 📦 Data Sources
-Two curated datasets:
+## 📊 Data
 
-- Peace Agreements Dataset – 30+ events including peace accords, disarmament campaigns, and community dialogues.
+This project draws on two key datasets compiled from open media sources and government reports:
 
-- Conflict Dataset – capturing reported raids, killings, or armed clashes.
+### 1. `conflict_data.csv`
+A chronological record of conflict events in the Turkana region and surrounding areas (2013–2025).
 
-## Each row captures:
+- **Fields:**  
+  `Date`, `Location`, `Lat`, `Long`, `Involved Parties`, `Event Type`, `Description`, `Consequences`, `Source`
 
-- Date and location
+- **Sample Events:**  
+  - Cross-border cattle raids  
+  - Armed ambushes  
+  - Clashes involving local communities and state actors
 
-- Involved communities or organizations
+- **Sources include:**  
+  *The Star, Daily Nation, Reuters, The Standard, Capital FM, Tuko.co.ke, Kenya Red Cross, The New Humanitarian*
 
-- Event type
+---
 
-- Description and consequences
+### 2. `peace_treaties.csv`
+A detailed log of peace efforts, disarmament campaigns, and local reconciliation initiatives (2011–2025).
 
-- Source (news outlet or organization)
+- **Fields:**  
+  `Date`, `Location`, `Involved Parties`, `Event Type`, `Description`, `Consequences`, `Source`
 
-- Most peace agreements focus on disarmament, joint grazing, and cessation of cattle raids.
+- **Sample Initiatives:**  
+  - Lokiriama Peace Accords  
+  - Voluntary
 
-- Key actors include local peace committees, community elders, and even regional militaries (e.g., UPDF).
-
-- Some events are ceremonial (e.g., symbolic burial of weapons), while others are operational (joint patrols, disarmament drives).
 
 ## 📊 Visual Analysis
 - Peace event frequency over time
