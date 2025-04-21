@@ -41,9 +41,6 @@ Two curated datasets:
 
 - Source (news outlet or organization)
 
-🔍 Key Insights
-
-✌️ Peace Efforts
 - Most peace agreements focus on disarmament, joint grazing, and cessation of cattle raids.
 
 - Key actors include local peace committees, community elders, and even regional militaries (e.g., UPDF).
