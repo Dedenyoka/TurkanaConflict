@@ -60,7 +60,7 @@ A detailed log of peace efforts, disarmament campaigns, and local reconciliation
 
 - Most common event types: Peace Agreements, Disarmament Initiatives, Community Meetings
 
-- Consequences analysis: How often peace events lead to long-term cooperation?
+- Plots violent events on a map using longitude and latitude.
 
 - Media outlets: Who reports on these events most consistently?
 
