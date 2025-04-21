@@ -27,7 +27,7 @@ This project curates, cleans, and analyzes detailed event-level data on conflict
 
 This project draws on two key datasets compiled from open media sources and government reports:
 
-### 1. `conflict_data.csv`
+### 1. `conflicts.csv`
 A chronological record of conflict events in the Turkana region and surrounding areas (2013–2025).
 
 - **Fields:**  
@@ -43,7 +43,7 @@ A chronological record of conflict events in the Turkana region and surrounding 
 
 ---
 
-### 2. `peace_treaties.csv`
+### 2. `peace.csv`
 A detailed log of peace efforts, disarmament campaigns, and local reconciliation initiatives (2011–2025).
 
 - **Fields:**  
