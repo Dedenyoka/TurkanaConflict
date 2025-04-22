@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 
-#laod context dataset
-df = pd.read_csv("D:\Coding\Projects\TurkanaConflicts\data\contextual_data.csv")
+#load context dataset
+df = pd.read_csv(r"D:\Coding\Projects\TurkanaConflicts\data\contextual_data.csv")
 
 # function to classify the type of aid
 def classify_aid(aid_text):

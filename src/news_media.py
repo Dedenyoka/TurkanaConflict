@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # df_conflict and df_peace_treaties
 
 # 1. Load conflict data
-df_conflict = pd.read_csv("D:/Coding/Projects/TurkanaConflicts/data/conflicts.csv")
+df_conflict = pd.read_csv(r"D:/Coding/Projects/TurkanaConflicts/data/conflicts.csv")
 
 # 2. Load peace treaties data
 df_peace_treaties= pd.read_csv(r'D:/Coding/Projects/TurkanaConflicts/data/peace.csv', quotechar='"')
