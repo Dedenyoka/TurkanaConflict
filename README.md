@@ -77,7 +77,7 @@ A detailed log of peace efforts, disarmament campaigns, and local reconciliation
 ## 🚀 What's Next?
 📊 Interactive Dashboard with filters by location, time, and event type.
 
-🌐 NLP sentiment analysis on article descriptions (if full text available).
+🌐 Predictive model to predict violence escalation.
 
 🤝 Merge with external datasets (drought, elections, aid interventions) to understand root causes.
 
