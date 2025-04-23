@@ -75,9 +75,6 @@ A detailed log of peace efforts, disarmament campaigns, and local reconciliation
 - This gap in coverage can influence public and policy perception.
 
 ## 🚀 What's Next?
-📊 Interactive Dashboard with filters by location, time, and event type.
-
-🌐 Predictive model to predict violence escalation.
 
 🤝 Merge with external datasets (drought, elections, aid interventions) to understand root causes.
 
